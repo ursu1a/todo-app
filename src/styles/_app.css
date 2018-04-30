@@ -1,0 +1,42 @@
+heml, body {
+  width: 100%;
+  font-size: 16px;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.app-content .wrapper {
+  width: 500px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .app-content .wrapper {
+    width: 90%;
+  }
+}
+
+input {
+  font-size: 15px;
+  padding: 5px;
+  height: 1.1rem;
+}
+
+button {
+  font-size: 15px;
+  padding: 5px;
+  color: #222222;
+  margin-left: 5px;
+  max-height: 2.5rem;
+}
+
+.red {
+  color: #ff0000;
+}

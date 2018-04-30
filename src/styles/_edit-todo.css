@@ -1,0 +1,13 @@
+.edit-todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.edit-todo input {
+  width: 100%;
+}
+
+.edit-todo .buttons {
+  display: inline-flex;
+}

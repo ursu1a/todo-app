@@ -1,0 +1,44 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+  border: 1px solid #dbdbdb;
+  margin-top: -1px;
+}
+
+
+.todo-item label {
+  display: flex;
+}
+
+.todo-item .title {
+  word-wrap: break-word;
+  padding-left: 0.5rem;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .todo-item .title {
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .todo-item .title {
+    max-width: 175px;
+  }
+}
+
+.todo-item .edit {
+  display: inline-flex;
+}
+
+.todo-item.checked .title {
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.todo-item.checked button.edit-item {
+  opacity: 0.5;
+}
