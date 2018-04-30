@@ -6,6 +6,9 @@
   margin-top: -1px;
 }
 
+.todo-item:last-child {
+  margin-bottom: 1.5rem;
+}
 
 .todo-item label {
   display: flex;

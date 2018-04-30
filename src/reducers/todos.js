@@ -74,6 +74,12 @@ export function todos(state = initialState, action) {
             ))
          };
 
+      case actionTypes.REMOVE_COMPLETED:
+         return {
+            ...state,
+            items: state.items.filter(item => !item.completed)
+         };
+
       default:
          return state;
    }

@@ -37,6 +37,14 @@ button {
   max-height: 2.5rem;
 }
 
+button.del-completed {
+  margin: 0;
+}
+
+button.del-completed:disabled {
+  opacity: 0.5;
+}
+
 .red {
   color: #ff0000;
 }

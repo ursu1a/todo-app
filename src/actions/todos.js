@@ -17,3 +17,7 @@ export const updateTodo = ({id, title}) => {
 export const toggleTodo = (id) => {
    return {type: actionTypes.TOGGLE_TODO, id: id};
 };
+
+export const removeCompleted = () => {
+   return {type: actionTypes.REMOVE_COMPLETED};
+};
